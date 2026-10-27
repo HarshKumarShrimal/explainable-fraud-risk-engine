@@ -1,0 +1,5 @@
+pr_auc,roc_auc,f1,precision,recall,brier_score,threshold,confusion_matrix,model
+1.0,1.0,1.0,1.0,1.0,0.0002,0.5,"{'true_negatives': 1194, 'false_positives': 0, 'false_negatives': 0, 'true_positives': 6}",Logistic Regression
+1.0,1.0,0.8,1.0,0.6667,0.0009,0.5,"{'true_negatives': 1194, 'false_positives': 0, 'false_negatives': 2, 'true_positives': 4}",XGBoost
+0.24,0.992,0.0272,0.0138,1.0,0.237,0.5,"{'true_negatives': 765, 'false_positives': 429, 'false_negatives': 0, 'true_positives': 6}",Isolation Forest
+1.0,1.0,0.9091,1.0,0.8333,0.0219,0.5,"{'true_negatives': 1194, 'false_positives': 0, 'false_negatives': 1, 'true_positives': 5}",Calibrated Hybrid Engine
